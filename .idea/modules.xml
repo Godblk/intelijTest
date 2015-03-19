@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/eclipse_workspace/RecyclerView-Sample/RecyclerView-Sample.iml" filepath="D:/eclipse_workspace/RecyclerView-Sample/RecyclerView-Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RippleSwitcherDemo/RippleSwitcherDemo.iml" filepath="$PROJECT_DIR$/RippleSwitcherDemo/RippleSwitcherDemo.iml" />
+      <module fileurl="file://D:/eclipse_workspace/lib-RecyclerView/lib-RecyclerView.iml" filepath="D:/eclipse_workspace/lib-RecyclerView/lib-RecyclerView.iml" />
+      <module fileurl="file://E:/UI包/波纹切换动画/app/src/main/main.iml" filepath="E:/UI包/波纹切换动画/app/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleDemo/recycleDemo.iml" filepath="$PROJECT_DIR$/recycleDemo/recycleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woeSpace.iml" filepath="$PROJECT_DIR$/woeSpace.iml" />
+    </modules>
+  </component>
+</project>

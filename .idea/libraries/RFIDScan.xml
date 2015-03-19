@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RFIDScan">
+    <CLASSES>
+      <root url="jar://D:/my_git_space/nfc_demo/nfc_demo/libs/RFIDScan.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lib-recyclerview">
+    <CLASSES>
+      <root url="jar://D:/eclipse_workspace/lib-RecyclerView/bin/lib-recyclerview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
