@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ObjectAnimator/ObjectAnimator.iml" filepath="$PROJECT_DIR$/ObjectAnimator/ObjectAnimator.iml" />
       <module fileurl="file://D:/eclipse_workspace/RecyclerView-Sample/RecyclerView-Sample.iml" filepath="D:/eclipse_workspace/RecyclerView-Sample/RecyclerView-Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/RippleSwitcherDemo/RippleSwitcherDemo.iml" filepath="$PROJECT_DIR$/RippleSwitcherDemo/RippleSwitcherDemo.iml" />
       <module fileurl="file://D:/eclipse_workspace/lib-RecyclerView/lib-RecyclerView.iml" filepath="D:/eclipse_workspace/lib-RecyclerView/lib-RecyclerView.iml" />
