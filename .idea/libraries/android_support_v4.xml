@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="android-support-v4">
     <CLASSES>
-      <root url="jar://D:/eclipse_workspace/lib-RecyclerView/libs/android-support-v4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/NumberSeekBar-master/NumberSeekBar/libs/android-support-v4.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

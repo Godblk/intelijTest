@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/NumberSeekBar-master/NumberSeekBar/NumberSeekBar.iml" filepath="$USER_HOME$/Desktop/NumberSeekBar-master/NumberSeekBar/NumberSeekBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObjectAnimator/ObjectAnimator.iml" filepath="$PROJECT_DIR$/ObjectAnimator/ObjectAnimator.iml" />
       <module fileurl="file://D:/eclipse_workspace/RecyclerView-Sample/RecyclerView-Sample.iml" filepath="D:/eclipse_workspace/RecyclerView-Sample/RecyclerView-Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/RippleSwitcherDemo/RippleSwitcherDemo.iml" filepath="$PROJECT_DIR$/RippleSwitcherDemo/RippleSwitcherDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpAndDpDemo/SpAndDpDemo.iml" filepath="$PROJECT_DIR$/SpAndDpDemo/SpAndDpDemo.iml" />
       <module fileurl="file://D:/eclipse_workspace/lib-RecyclerView/lib-RecyclerView.iml" filepath="D:/eclipse_workspace/lib-RecyclerView/lib-RecyclerView.iml" />
-      <module fileurl="file://E:/UI包/波纹切换动画/app/src/main/main.iml" filepath="E:/UI包/波纹切换动画/app/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/recycleDemo/recycleDemo.iml" filepath="$PROJECT_DIR$/recycleDemo/recycleDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/woeSpace.iml" filepath="$PROJECT_DIR$/woeSpace.iml" />
     </modules>

@@ -29,24 +29,51 @@ public class SingleChildActivity extends Activity {
         if (mIsBaseOnTouchLocation) {
             mRevealLayout.setOnClickListener(null);
             mRevealLayout.setOnTouchListener(new View.OnTouchListener() {
+                int startX, startY;
+
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
-                    if (event.getActionMasked() == MotionEvent.ACTION_DOWN) {
-                        Log.d("SingleChildActivity", "x: " + event.getX() + ", y: " + event.getY());
-                        if (mRevealLayout.isContentShown()) {
-                            if (mIsAnimationSlowDown) {
-                                mRevealLayout.hide((int) event.getX(), (int) event.getY(), 2000);
+//                    if (event.getActionMasked() == MotionEvent.ACTION_DOWN) {
+//                        Log.d("SingleChildActivity", "x: " + event.getX() + ", y: " + event.getY());
+//                        startX = (int) event.getX();
+//                        startY = (int) event.getY();
+//                        if (mRevealLayout.isContentShown()) {
+//                            if (mIsAnimationSlowDown) {
+//                                mRevealLayout.hide((int) event.getX(), (int) event.getY(), 2000);
+//                            } else {
+//                                mRevealLayout.hide((int) event.getX(), (int) event.getY());
+//                            }
+//                        } else {
+//                            if (mIsAnimationSlowDown) {
+//                                mRevealLayout.show((int) event.getX(), (int) event.getY(), 2000);
+//                            } else {
+//                                mRevealLayout.show((int) event.getX(), (int) event.getY());
+//                            }
+//                        }
+//                        return true;
+//                    }
+                    switch (event.getAction()) {
+                        case MotionEvent.ACTION_DOWN:
+                            startX = (int) event.getX();
+                            startY = (int) event.getY();
+                            return true;
+                        case MotionEvent.ACTION_MOVE:
+                            int moveY = (int) event.getY();
+                            int disY = moveY - startY;
+                            if (mRevealLayout.isContentShown()) {
+                                if (mIsAnimationSlowDown) {
+                                    mRevealLayout.hide((int) event.getX(), (int) event.getY(), 2000);
+                                } else {
+                                    mRevealLayout.hide((int) event.getX(), (int) event.getY());
+                                }
                             } else {
-                                mRevealLayout.hide((int) event.getX(), (int) event.getY());
+                                if (mIsAnimationSlowDown) {
+                                    mRevealLayout.show((int) event.getX(), (int) event.getY(), 2000);
+                                } else {
+                                    mRevealLayout.show((int) event.getX(), (int) event.getY());
+                                }
                             }
-                        } else {
-                            if (mIsAnimationSlowDown) {
-                                mRevealLayout.show((int) event.getX(), (int) event.getY(), 2000);
-                            } else {
-                                mRevealLayout.show((int) event.getX(), (int) event.getY());
-                            }
-                        }
-                        return true;
+                            return true;
                     }
                     return false;
                 }

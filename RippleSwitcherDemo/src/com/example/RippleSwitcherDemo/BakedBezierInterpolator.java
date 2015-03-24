@@ -32,6 +32,7 @@ class BakedBezierInterpolator implements Interpolator {
 
     private static final float STEP_SIZE = 1.0f / (VALUES.length - 1);
 
+    //在该方法中去values的值是除以一个固定的长度，这样子可以在拖动时根据拖动的距离来放大缩小
     @Override
     public float getInterpolation(float input) {
         if (input >= 1.0f) {

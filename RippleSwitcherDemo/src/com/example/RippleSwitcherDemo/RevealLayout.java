@@ -10,6 +10,7 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.FrameLayout;
 
 /**
@@ -89,11 +90,11 @@ public class RevealLayout extends FrameLayout{
     }
 
     public void show(int duration) {
-        show(getWidth() / 2, getHeight() / 2, duration);
+        show(getWidth() / 2, 0, duration);
     }
 
     public void hide(int duration) {
-        hide(getWidth() / 2, getHeight() / 2, duration);
+        hide(getWidth() / 2, 0, duration);
     }
 
     public void next(int duration) {
@@ -126,7 +127,8 @@ public class RevealLayout extends FrameLayout{
         }
 
         mAnimator = ObjectAnimator.ofFloat(this, "clipRadius", 0f, maxRadius);
-        mAnimator.setInterpolator(new BakedBezierInterpolator());
+//        mAnimator.setInterpolator(new BakedBezierInterpolator());
+//        mAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
         mAnimator.setDuration(duration);
         mAnimator.addListener(new AnimatorListenerAdapter() {
             @Override
